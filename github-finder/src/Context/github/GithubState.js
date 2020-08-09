@@ -43,7 +43,7 @@ const GithubState = props => {
 
         let bool = await axios.get(`https://api.github.com/search/users?q=${text}&client_id=${githubClientId}&client_secret=${githubClientSecret}`)
             .then((res) => {
-                if (res.data.items.length != 0) {
+                if (res.data.items.length !== 0) {
                     dispatch({
                         type: SEARCH_USERS,
                         payload: res.data.items
