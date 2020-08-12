@@ -38,6 +38,7 @@ router.post('/', [auth,[
         const newContact = new Contact({
             name,
             email,
+            phone,
             type,
             user: req.user.id
         })
@@ -62,7 +63,7 @@ router.put('/:id', auth, async (req, res) => {
     if(name)
         contactFields.name = name;
     if(email)
-        contactFields.name = email;
+        contactFields.email = email;
     if(phone)
         contactFields.phone = phone;
     if(type)
@@ -82,7 +83,7 @@ router.put('/:id', auth, async (req, res) => {
             {$set: contactFields},
             {new: true});
 
-        res.json({contact});
+        res.json(contact);
     } catch (err) {
         console.error(err.message);
         res.status(500).json({msg: 'Server Error'});
