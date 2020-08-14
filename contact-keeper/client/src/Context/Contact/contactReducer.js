@@ -52,7 +52,7 @@ export default (state, action) => {
             return {
                 ...state,
                 contacts: state.contacts.map((contact) =>
-                    contact._id === action.payload._id ? action.payload : contact._id),
+                    contact._id === action.payload._id ? action.payload : contact),
                 loading: false
             };
         case FILTER_CONTACTS:

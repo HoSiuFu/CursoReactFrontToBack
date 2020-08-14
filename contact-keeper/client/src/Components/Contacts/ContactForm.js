@@ -9,6 +9,7 @@ export const ContactForm = () => {
     useEffect(() => {
         if (current !== null) {
             setContact(current);
+            console.log(current);
         } else {
             setContact({
                 name: '',
