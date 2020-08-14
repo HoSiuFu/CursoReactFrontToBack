@@ -1,0 +1,82 @@
+{
+  "logs": [
+    {
+      "message": "Kill Sarah Connor and John Connor",
+      "attention": true,
+      "tech": "T-1000 Terminator",
+      "date": "2020-08-14T10:08:39.552Z",
+      "id": 1
+    },
+    {
+      "message": "Keep John Connor safe",
+      "attention": true,
+      "tech": "T-800 Terminator",
+      "date": "2020-08-14T10:09:12.394Z",
+      "id": 2
+    },
+    {
+      "message": "Stay alive and save Sarah Connor",
+      "attention": true,
+      "tech": "John Connor",
+      "date": "2020-08-14T10:09:35.816Z",
+      "id": 3
+    },
+    {
+      "message": "Stay alive and get out of mental hospital",
+      "attention": true,
+      "tech": "Sarah Connor",
+      "date": "2020-08-14T10:10:07.021Z",
+      "id": 4
+    },
+    {
+      "message": "Module destroyed, mission failed",
+      "attention": true,
+      "tech": "T-1000 Terminator",
+      "date": "2020-08-14T10:10:43.451Z",
+      "id": 5
+    },
+    {
+      "message": "Mission successfull John Connor was saved, module destroyed",
+      "attention": false,
+      "tech": "T-800 Terminator",
+      "date": "2020-08-14T10:11:48.911Z",
+      "id": 6
+    },
+    {
+      "message": "Did not die, at least not yet",
+      "attention": false,
+      "tech": "Sarah Connor",
+      "date": "2020-08-14T10:12:24.096Z",
+      "id": 7
+    },
+    {
+      "message": "Did not die, at least not yet",
+      "attention": false,
+      "tech": "John Connor",
+      "date": "2020-08-14T10:12:48.130Z",
+      "id": 8
+    }
+  ],
+  "techs": [
+    {
+      "firstName": "Sarah",
+      "lastName": "Connor",
+      "id": 1
+    },
+    {
+      "firstName": "T-1000",
+      "lastName": "Terminator",
+      "id": 2
+    },
+    {
+      "firstName": "T-800",
+      "lastName": "Terminator",
+      "id": 3
+    },
+    {
+      "firstName": "John",
+      "lastName": "Connor",
+      "id": 4
+    }
+  ]
+}
