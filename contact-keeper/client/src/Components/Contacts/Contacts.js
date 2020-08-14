@@ -15,7 +15,11 @@ const Contacts = () => {
     }, []);
 
     if (contacts && contacts.length === 0 && !loading) {
-        return <h4>Please add a contact</h4>
+        return (
+            <div style={{backgroundColor: 'white'}}>
+                <h4>Please add a contact</h4>
+            </div>
+        )
     }
 
     return (
